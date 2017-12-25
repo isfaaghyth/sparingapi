@@ -13,6 +13,9 @@ module.exports = {
        primaryKey: true,
        autoIncrement: true
      },
+     sparing_id: {
+        type: 'integer'
+     },
      point: {
        type: 'integer'
      },
