@@ -23,7 +23,7 @@ module.exports = {
          model: 'area'
      },
      date_playing: {
-         model: 'string'
+         type: 'string'
      },
      status: {
          type: 'string'
