@@ -31,6 +31,9 @@ module.exports = {
       avatar: {
          type: 'string'
       },
+      sportId: {
+         type: 'string'
+      },
       phone_number: {
          type: 'string'
       },

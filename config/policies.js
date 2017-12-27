@@ -49,9 +49,9 @@ module.exports.policies = {
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
 
-   'UsersController': {
-      '*':'isAuthorized',
-      'create': true, // We dont need authorization here, allowing public access
-      'login': true, // We dont need authorization here, allowing public access
-   },
+   // 'UsersController': {
+   //    '*':'isAuthorized',
+   //    'create': true, // We dont need authorization here, allowing public access
+   //    'login': true, // We dont need authorization here, allowing public access
+   // },
 };
